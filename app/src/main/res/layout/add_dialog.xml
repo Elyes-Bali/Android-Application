@@ -26,8 +26,10 @@
         android:background="#fff"
         android:padding="11dp"
         android:id="@+id/edtName"
+        android:textColor="@color/black"
         android:layout_marginBottom="11dp"
         android:inputType="text"
+        android:textColorHint="@color/black"
         android:hint="Enter Product Name"
 
         />
@@ -36,9 +38,11 @@
         android:layout_height="wrap_content"
         android:background="#fff"
         android:padding="11dp"
+        android:textColor="@color/black"
         android:id="@+id/edtNumber"
         android:layout_marginBottom="11dp"
         android:inputType="text"
+        android:textColorHint="@color/black"
         android:hint="Enter Description with the price "
 
         />
