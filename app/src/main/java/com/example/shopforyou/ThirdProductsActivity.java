@@ -276,7 +276,7 @@ public class ThirdProductsActivity extends AppCompatActivity {
                 startActivity(d);
                 break;}
             case R.id.it4:{
-                Intent e= new Intent(ThirdProductsActivity.this,FifthProductsActivity.class);
+                Intent e= new Intent(ThirdProductsActivity.this,ForthProductsActivity.class);
                 startActivity(e);
                 break;}
         }

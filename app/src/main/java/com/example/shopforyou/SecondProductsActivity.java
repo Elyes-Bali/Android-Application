@@ -358,7 +358,7 @@ public class SecondProductsActivity extends AppCompatActivity {
                 startActivity(d);
                 break;}
             case R.id.it4:{
-                Intent e= new Intent(SecondProductsActivity.this,FifthProductsActivity.class);
+                Intent e= new Intent(SecondProductsActivity.this,ForthProductsActivity.class);
                 startActivity(e);
                 break;}
         }
