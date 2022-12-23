@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+
+    <item
+        android:id="@+id/it1"
+        android:orderInCategory="1"
+        android:title="LAPTOPS"
+        app:showAsAction="never"
+
+        />
+
+
+    <item
+        android:id="@+id/it2"
+        android:orderInCategory="2"
+        android:title="PHONES"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/it3"
+        android:orderInCategory="3"
+        android:title="ELECTRONICS"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/it4"
+        android:orderInCategory="3"
+        android:title="ACCESSORIES"
+        app:showAsAction="never"
+        />
+
+</menu>
