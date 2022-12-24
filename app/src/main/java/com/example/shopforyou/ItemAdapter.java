@@ -47,6 +47,7 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.ViewHolder> {
     String name=userList.get(position).getName();
     String des=userList.get(position).getDes();
 
+
     holder.setData(resource,name,des);
 
     holder.itemView.setOnLongClickListener(new View.OnLongClickListener() {

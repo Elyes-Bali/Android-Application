@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.Dialog;
 import android.content.Intent;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -12,20 +13,24 @@ import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
 public class FifthProductsActivity extends AppCompatActivity {
     TextView t1,t2,t3;
     ImageView im1;
+    Button btn2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fifth_products);
+        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.orange)));
         t1=findViewById(R.id.textView1);
         t2=findViewById(R.id.textView2);
         t3=findViewById(R.id.textView3);
+        btn2=findViewById(R.id.add1);
         im1=findViewById(R.id.imageView2);
         Bundle extras = getIntent().getExtras();
         Intent i = getIntent();
@@ -41,6 +46,12 @@ public class FifthProductsActivity extends AppCompatActivity {
 
             im1.setImageResource(img);
         }
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(FifthProductsActivity.this, "Coming Soon... ", Toast.LENGTH_SHORT).show();
+            }
+        });
 
 
     }
