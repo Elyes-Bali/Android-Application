@@ -6,3 +6,4 @@ this is a mini E-commerce application with amazing design using android studio
 ![Screenshot_20221227-120625_ShopForYou](https://user-images.githubusercontent.com/100534870/209658074-7d7f33ca-5439-4628-8405-9b5539b6bbd8.jpg)
 ![Screenshot_20221227-120631_ShopForYou](https://user-images.githubusercontent.com/100534870/209658078-d3ffb30b-a50f-4151-b009-a6903820494e.jpg)
 ![Screenshot_20221227-120646_ShopForYou](https://user-images.githubusercontent.com/100534870/209658098-3cc2cfd5-eee5-4fa0-8be0-31ac6389ad4f.jpg)
+https://user-images.githubusercontent.com/100534870/209658691-233783f4-8207-4562-8a69-cb6efd9f691e.mp4
